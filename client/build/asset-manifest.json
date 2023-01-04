@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86379487.css",
+    "main.js": "/static/js/main.6e719be1.js",
+    "static/media/trending2.jpg": "/static/media/trending2.1ad49e503b2ee4343af1.jpg",
+    "static/media/trending1.jpg": "/static/media/trending1.64dcdf1bac080dc3b784.jpg",
+    "static/media/Hero-img.jpg": "/static/media/Hero-img.2fde959eac509b979ae7.jpg",
+    "static/media/Banner.jpg": "/static/media/Banner.783b7672e43471e5e485.jpg",
+    "static/media/amazon.png": "/static/media/amazon.d4674619085daa1542ee.png",
+    "static/media/levis.png": "/static/media/levis.115f7f640e32649a0c4f.png",
+    "static/media/obey.png": "/static/media/obey.b797fb64697a3ffca950.png",
+    "static/media/Logo.png": "/static/media/Logo.e1e447ee901cd6382c2b.png",
+    "static/media/shopify.png": "/static/media/shopify.e942d64858dbe630f1b1.png",
+    "static/media/puma.png": "/static/media/puma.48638c2cb1bf44b6057c.png",
+    "index.html": "/index.html",
+    "main.86379487.css.map": "/static/css/main.86379487.css.map",
+    "main.6e719be1.js.map": "/static/js/main.6e719be1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86379487.css",
+    "static/js/main.6e719be1.js"
+  ]
+}
