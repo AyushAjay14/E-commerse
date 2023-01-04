@@ -1,6 +1,7 @@
 if (process.env.NODE_ENV !== 'production') {
     require('dotenv').config({path: __dirname+'/.env'});
 }
+const path = require("path");
 const express = require("express");
 const mongoose = require("mongoose");
 const authRoute = require("./routes/authRoute");
@@ -14,10 +15,12 @@ mongoose.connect(process.env.MONGO_URL).then(()=>{
 }).catch((err)=>{
     console.log(err);
 })
-
+app.use(express.static(path.join(__dirname, '../' , 'client', 'build')));
 app.use("/api/user" , authRoute);
 app.use("/api/products" , productRoute);
-
+app.get("*" , async(req , res) =>{
+    res.sendFile(path.join(__dirname, '../' , 'client', 'build', 'index.html'));
+})
 app.listen(process.env.PORT || 5000 , ()=>{
     console.log("Server is running.")
 })
